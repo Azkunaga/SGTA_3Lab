@@ -73,7 +73,7 @@ Public Class DatuAtzipena
 
     'metodoak Shared (singleton patroia):
     Public Shared Sub Konektatu()
-        Dim strconSGTA_DB_Erabiltzaileak As String = "Server=tcp:sgta2022-azkunaga.database.windows.net,1433;Initial Catalog=sgtaDB-azkunaga;Persist Security Info=False;User ID=azkunaga;Password=u.a.a.2001;MultipleActiveResultSets=True;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;"
+        Dim strconSGTA_DB_Erabiltzaileak As String = "Server=tcp:sgta2022-aritzplazaola.database.windows.net,1433;Initial Catalog=sgta2022-aritzplazaola;Persist Security Info=False;User ID=sgta2022-aritzplazaola;Password=softGTA3;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;"
         Try
             conSGTA_DB_Erabiltzaileak = New SqlConnection(strconSGTA_DB_Erabiltzaileak)
             conSGTA_DB_Erabiltzaileak.Open()

@@ -1,0 +1,10 @@
+C:\Users\USU\source\repos\SGTA_3Lab\ErabiltzaileErregistratuak\DatuAtzipenekoak\bin\Debug\DatuAtzipenekoak.dll
+C:\Users\USU\source\repos\SGTA_3Lab\ErabiltzaileErregistratuak\DatuAtzipenekoak\bin\Debug\DatuAtzipenekoak.pdb
+C:\Users\USU\source\repos\SGTA_3Lab\ErabiltzaileErregistratuak\DatuAtzipenekoak\bin\Debug\DatuAtzipenekoak.xml
+C:\Users\USU\source\repos\SGTA_3Lab\ErabiltzaileErregistratuak\DatuAtzipenekoak\obj\Debug\DatuAtzipenekoak.vbproj.AssemblyReference.cache
+C:\Users\USU\source\repos\SGTA_3Lab\ErabiltzaileErregistratuak\DatuAtzipenekoak\obj\Debug\DatuAtzipenekoak.Resources.resources
+C:\Users\USU\source\repos\SGTA_3Lab\ErabiltzaileErregistratuak\DatuAtzipenekoak\obj\Debug\DatuAtzipenekoak.vbproj.GenerateResource.cache
+C:\Users\USU\source\repos\SGTA_3Lab\ErabiltzaileErregistratuak\DatuAtzipenekoak\obj\Debug\DatuAtzipenekoak.vbproj.CoreCompileInputs.cache
+C:\Users\USU\source\repos\SGTA_3Lab\ErabiltzaileErregistratuak\DatuAtzipenekoak\obj\Debug\DatuAtzipenekoak.dll
+C:\Users\USU\source\repos\SGTA_3Lab\ErabiltzaileErregistratuak\DatuAtzipenekoak\obj\Debug\DatuAtzipenekoak.xml
+C:\Users\USU\source\repos\SGTA_3Lab\ErabiltzaileErregistratuak\DatuAtzipenekoak\obj\Debug\DatuAtzipenekoak.pdb

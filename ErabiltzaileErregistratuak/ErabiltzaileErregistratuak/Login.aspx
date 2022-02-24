@@ -18,16 +18,12 @@
             <asp:Label ID="lblPasahitza" runat="server" Text="Pasahitza:"></asp:Label>
 &nbsp;
             <asp:TextBox ID="txtPasahitza" runat="server" Width="849px"></asp:TextBox>
-            <br />
-            <br />
-            <asp:Button ID="btn2Login" runat="server" Text="Log In" />
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <asp:Label ID="lblErrMezua" runat="server" Text="   "></asp:Label>
+            <br /><br />
+            <asp:Button ID="btn2Login" runat="server" Text="Log In" /><asp:Label ID="lblErrMezua" runat="server" Text="   "></asp:Label>
             <br />
             <br />
             <asp:Button ID="btn2Erregistratu" runat="server" Text="Erregistratu" />
-            <br />
-            <br />
+            <br /><br />
             <asp:Button ID="btnPasaBerr" runat="server" Text="Pasahitza Berreskuratu" />
         </div>
     </form>

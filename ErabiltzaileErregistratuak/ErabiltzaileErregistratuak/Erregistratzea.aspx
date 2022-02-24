@@ -46,10 +46,13 @@
             <br />
             <asp:Label ID="lblErabMota" runat="server" Text="Erabiltzaile mota:"></asp:Label>
 &nbsp;
-            <asp:TextBox ID="txtErabMota" runat="server" Width="313px"></asp:TextBox>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <asp:DropDownList ID="DropDownMota" runat="server">
+                <asp:ListItem Value="Ikaslea"></asp:ListItem>
+                <asp:ListItem Value="Irakaslea"></asp:ListItem>
+            </asp:DropDownList>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             <asp:Label ID="lblPasahitza" runat="server" Text="Pasahitza:"></asp:Label>
-&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;
             <asp:TextBox ID="txtPasahitza" runat="server" Width="369px"></asp:TextBox>
             <br />
             <br />

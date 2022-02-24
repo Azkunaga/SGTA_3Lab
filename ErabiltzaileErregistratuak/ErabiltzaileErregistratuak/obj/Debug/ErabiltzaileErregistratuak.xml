@@ -37,6 +37,60 @@ ErabiltzaileErregistratuak
  Devuelve el objeto de registro Asp.
  </summary>
 </member>
+<member name="F:ErabiltzaileErregistratuak.WebForm9._form1">
+<summary>
+Control form1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:ErabiltzaileErregistratuak.WebForm11._form1">
+<summary>
+Control form1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:ErabiltzaileErregistratuak.WebForm12._form1">
+<summary>
+Control form1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:ErabiltzaileErregistratuak.WebForm10._form1">
+<summary>
+Control form1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:ErabiltzaileErregistratuak.WebForm13._form1">
+<summary>
+Control form1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:ErabiltzaileErregistratuak.WebForm14._form1">
+<summary>
+Control form1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
 <member name="F:ErabiltzaileErregistratuak.WebForm1._form1">
 <summary>
 Control form1.
@@ -109,18 +163,18 @@ Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
-<member name="F:ErabiltzaileErregistratuak.WebForm2._btn2Login">
+<member name="F:ErabiltzaileErregistratuak.WebForm2._lblErrMezua">
 <summary>
-Control btn2Login.
+Control lblErrMezua.
 </summary>
 <remarks>
 Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
-<member name="F:ErabiltzaileErregistratuak.WebForm2._lblErrMezua">
+<member name="F:ErabiltzaileErregistratuak.WebForm2._btn2Login">
 <summary>
-Control lblErrMezua.
+Control btn2Login.
 </summary>
 <remarks>
 Campo generado automáticamente.

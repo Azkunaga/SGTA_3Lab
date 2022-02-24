@@ -176,13 +176,13 @@ Partial Public Class WebForm3
     Protected WithEvents lblErabMota As Global.System.Web.UI.WebControls.Label
 
     '''<summary>
-    '''Control txtErabMota.
+    '''Control DropDownMota.
     '''</summary>
     '''<remarks>
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents txtErabMota As Global.System.Web.UI.WebControls.TextBox
+    Protected WithEvents DropDownMota As Global.System.Web.UI.WebControls.DropDownList
 
     '''<summary>
     '''Control lblPasahitza.

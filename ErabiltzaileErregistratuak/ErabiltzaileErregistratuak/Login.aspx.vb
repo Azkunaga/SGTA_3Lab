@@ -26,10 +26,17 @@ Public Class WebForm2
         If drErabiltzaileak.Read() Then
             If String.Equals(drErabiltzaileak.Item("email"), txtEmail.Text) And String.Equals(drErabiltzaileak.Item("pasahitza"), txtPasahitza.Text) Then
                 Session.Contents("emaila") = txtEmail.Text
-                Response.Redirect("Menua.aspx")
                 DatuAtzipenekoak.DatuAtzipena.ItxiKonexioa()
+                If Regex.IsMatch(txtEmail.Text, "[a-z]+@ikasle.ehu.(eus|es)") Then
+                    Response.Redirect("Ikasleak.aspx")
+                ElseIf Regex.IsMatch(txtEmail.Text, "[a-z]+@ehu.(eus|es)") Then
+                    Response.Redirect("Irakasleak.aspx")
+                Else
+                    lblErrMezua.Text = "Emaila ez da ikasle edo irakasle batena"
+                End If
             Else
                 lblErrMezua.Text = "Emaila edo pasahitza ez da zuzena"
+                DatuAtzipenekoak.DatuAtzipena.ItxiKonexioa()
             End If
         End If
 
@@ -37,7 +44,6 @@ Public Class WebForm2
 
     Protected Sub btn2Erregistratu_Click(sender As Object, e As EventArgs) Handles btn2Erregistratu.Click
         Response.Redirect("Erregistratzea.aspx")
-        DatuAtzipenekoak.DatuAtzipena.ItxiKonexioa()
     End Sub
 
     Protected Sub btnPasaBerr_Click(sender As Object, e As EventArgs) Handles btnPasaBerr.Click
@@ -45,7 +51,6 @@ Public Class WebForm2
             MessageBox.Show("Emailaren testu kutxa hutsik dago")
         Else
             Response.Redirect(String.Concat("PasahitzaBerreskuratu.aspx?emaila=", txtEmail.Text))
-            DatuAtzipenekoak.DatuAtzipena.ItxiKonexioa()
         End If
     End Sub
 End Class

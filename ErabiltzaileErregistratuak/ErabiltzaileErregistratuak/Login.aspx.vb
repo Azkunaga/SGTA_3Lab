@@ -48,7 +48,7 @@ Public Class WebForm2
 
     Protected Sub btnPasaBerr_Click(sender As Object, e As EventArgs) Handles btnPasaBerr.Click
         If String.IsNullOrEmpty(txtEmail.Text) Then
-            MessageBox.Show("Emailaren testu kutxa hutsik dago")
+            lblErrMezua.Text = "Emailaren testu kutxa hutsik dago"
         Else
             Response.Redirect(String.Concat("PasahitzaBerreskuratu.aspx?emaila=", txtEmail.Text))
         End If

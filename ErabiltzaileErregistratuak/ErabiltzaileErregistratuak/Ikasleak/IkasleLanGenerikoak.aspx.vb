@@ -5,7 +5,7 @@
 
     End Sub
 
-    Protected Sub CheckBoxList1_SelectedIndexChanged(sender As Object, e As EventArgs) Handles CheckBoxList1.SelectedIndexChanged
+    Protected Sub CheckBoxList1_SelectedIndexChanged(sender As Object, e As EventArgs) Handles cblLanEzaugarri.SelectedIndexChanged
 
     End Sub
 End Class

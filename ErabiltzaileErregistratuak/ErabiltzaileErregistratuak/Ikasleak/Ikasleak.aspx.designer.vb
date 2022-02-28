@@ -23,40 +23,40 @@ Partial Public Class WebForm9
     Protected WithEvents form1 As Global.System.Web.UI.HtmlControls.HtmlForm
 
     '''<summary>
-    '''Control HyperLink1.
+    '''Control hypLanGene.
     '''</summary>
     '''<remarks>
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents HyperLink1 As Global.System.Web.UI.WebControls.HyperLink
+    Protected WithEvents hypLanGene As Global.System.Web.UI.WebControls.HyperLink
 
     '''<summary>
-    '''Control HyperLink2.
+    '''Control hypLanPer.
     '''</summary>
     '''<remarks>
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents HyperLink2 As Global.System.Web.UI.WebControls.HyperLink
+    Protected WithEvents hypLanPer As Global.System.Web.UI.WebControls.HyperLink
 
     '''<summary>
-    '''Control HyperLink3.
+    '''Control hypTaldeak.
     '''</summary>
     '''<remarks>
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents HyperLink3 As Global.System.Web.UI.WebControls.HyperLink
+    Protected WithEvents hypTaldeak As Global.System.Web.UI.WebControls.HyperLink
 
     '''<summary>
-    '''Control HyperLink4.
+    '''Control hypPasaAlda.
     '''</summary>
     '''<remarks>
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents HyperLink4 As Global.System.Web.UI.WebControls.HyperLink
+    Protected WithEvents hypPasaAlda As Global.System.Web.UI.WebControls.HyperLink
 
     '''<summary>
     '''Control Label1.

@@ -23,6 +23,9 @@
             <br />
             <br />
             <asp:Button ID="btnLogIn" runat="server" Text="LogIn" />
+            <br />
+            <br />
+            <asp:Label ID="lblErrMezu" runat="server" Text="   "></asp:Label>
         </div>
     </form>
 </body>

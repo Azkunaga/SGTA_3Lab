@@ -41,38 +41,47 @@ Partial Public Class WebForm11
     Protected WithEvents Label2 As Global.System.Web.UI.WebControls.Label
 
     '''<summary>
-    '''Control DropDownList1.
+    '''Control ddlIrakasgaiak.
     '''</summary>
     '''<remarks>
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents DropDownList1 As Global.System.Web.UI.WebControls.DropDownList
+    Protected WithEvents ddlIrakasgaiak As Global.System.Web.UI.WebControls.DropDownList
 
     '''<summary>
-    '''Control CheckBoxList1.
+    '''Control cblLanEzaugarri.
     '''</summary>
     '''<remarks>
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents CheckBoxList1 As Global.System.Web.UI.WebControls.CheckBoxList
+    Protected WithEvents cblLanEzaugarri As Global.System.Web.UI.WebControls.CheckBoxList
 
     '''<summary>
-    '''Control Button1.
+    '''Control btnLanakBistaratu.
     '''</summary>
     '''<remarks>
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents Button1 As Global.System.Web.UI.WebControls.Button
+    Protected WithEvents btnLanakBistaratu As Global.System.Web.UI.WebControls.Button
 
     '''<summary>
-    '''Control GridView1.
+    '''Control lblErrMezu.
     '''</summary>
     '''<remarks>
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents GridView1 As Global.System.Web.UI.WebControls.GridView
+    Protected WithEvents lblErrMezu As Global.System.Web.UI.WebControls.Label
+
+    '''<summary>
+    '''Control grvLanak.
+    '''</summary>
+    '''<remarks>
+    '''Campo generado automáticamente.
+    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+    '''</remarks>
+    Protected WithEvents grvLanak As Global.System.Web.UI.WebControls.GridView
 End Class

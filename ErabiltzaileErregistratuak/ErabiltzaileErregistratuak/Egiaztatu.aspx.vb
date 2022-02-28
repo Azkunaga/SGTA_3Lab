@@ -14,7 +14,7 @@ Public Class WebForm4
                     Try
                         DatuAtzipenekoak.DatuAtzipena.ErabiltzaileaEgiaztatu(Request.QueryString(“emaila”))
                     Catch ex As DatuAtzipenekoak.DatuAtzipena.Salbuespenak.ErroreaEguneratzean
-                        MessageBox.Show(ex.Message)
+                        lblErroreMezua.Text = ex.Message
                         Exit Sub
                     End Try
                     DatuAtzipenekoak.DatuAtzipena.ItxiKonexioa()
@@ -25,10 +25,10 @@ Public Class WebForm4
                 End If
             End If
         Catch ex As DatuAtzipenekoak.DatuAtzipena.Salbuespenak.ErroreaKonektatzean
-            MessageBox.Show(ex.Message)
+            lblErroreMezua.Text = ex.Message
             Exit Sub
         Catch ex As DatuAtzipenekoak.DatuAtzipena.Salbuespenak.ErroreaIrakurtzean
-            MessageBox.Show(ex.Message)
+            lblErroreMezua.Text = ex.Message
             Exit Sub
         End Try
     End Sub

@@ -16,19 +16,21 @@
         <asp:Label ID="Label2" runat="server" Text="Hautatu irakasgaia(matrikulatutakoak baino ez dira azaltzen):"></asp:Label>
         <br />
         <br />
-        <asp:DropDownList ID="DropDownList1" runat="server">
+        <asp:DropDownList ID="ddlIrakasgaiak" runat="server">
         </asp:DropDownList>
-        <asp:CheckBoxList ID="CheckBoxList1" runat="server">
+        <asp:CheckBoxList ID="cblLanEzaugarri" runat="server">
             <asp:ListItem Value="Kodea">Kodea</asp:ListItem>
             <asp:ListItem Value="Deskribapena"></asp:ListItem>
             <asp:ListItem Value="AurOrd">Aurreikusitako orduak</asp:ListItem>
             <asp:ListItem Value="LanMota">Lan mota</asp:ListItem>
         </asp:CheckBoxList>
         <br />
-        <asp:Button ID="Button1" runat="server" Text="Ikusi lanak" />
+        <asp:Button ID="btnLanakBistaratu" runat="server" Text="Ikusi lanak" />
+        <br />
+        <asp:Label ID="lblErrMezu" runat="server" Text="   "></asp:Label>
         <br />
         <br />
-        <asp:GridView ID="GridView1" runat="server">
+        <asp:GridView ID="grvLanak" runat="server">
         </asp:GridView>
     </form>
 </body>

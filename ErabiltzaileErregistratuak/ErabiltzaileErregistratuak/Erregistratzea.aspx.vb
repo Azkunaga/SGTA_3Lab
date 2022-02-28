@@ -11,7 +11,7 @@ Public Class WebForm3
         Try
             DatuAtzipenekoak.DatuAtzipena.Konektatu()
         Catch ex As DatuAtzipenekoak.DatuAtzipena.Salbuespenak.ErroreaKonektatzean
-            MessageBox.Show(ex.Message)
+            lblErrMezu.Text = ex.Message
             DatuAtzipenekoak.DatuAtzipena.ItxiKonexioa()
             Exit Sub
         End Try
@@ -28,7 +28,7 @@ Public Class WebForm3
                         Try
                             DatuAtzipenekoak.DatuAtzipena.ErabiltzaileaTxertatu(txtEmail.Text, txtIzena.Text, txtAbizena.Text, txtGalderaEzkutua.Text, txtErantzuna.Text, txtNAN.Text, egiaztatzeZenbakia, txtLanKodea.Text, txtAzpiKodea.Text, DropDownMota.SelectedValue, txtPasahitza.Text)
                         Catch ex As Exception
-                            MessageBox.Show(ex.Message)
+                            lblErrMezu.Text = ex.Message
                             DatuAtzipenekoak.DatuAtzipena.ItxiKonexioa()
                             Exit Sub
                         End Try

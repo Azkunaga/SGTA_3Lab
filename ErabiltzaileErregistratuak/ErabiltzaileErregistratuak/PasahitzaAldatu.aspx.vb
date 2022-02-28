@@ -20,26 +20,26 @@ Public Class WebForm7
                         Try
                             DatuAtzipenekoak.DatuAtzipena.ErabiltzailearenPasahitzaAldatu(Session.Contents("emaila").ToString, txtNewPass.Text)
                         Catch ex As DatuAtzipenekoak.DatuAtzipena.Salbuespenak.ErroreaEguneratzean
-                            MessageBox.Show(ex.Message)
+                            lblErrMezu.Text = ex.Message
                             DatuAtzipenekoak.DatuAtzipena.ItxiKonexioa()
                             Exit Sub
                         End Try
                         DatuAtzipenekoak.DatuAtzipena.ItxiKonexioa()
                         Response.Redirect("Menua.aspx")
                     Else
-                        MessageBox.Show("Pasahitz berriak ez dira berdinak")
+                        lblErrMezu.Text = "Pasahitz berriak ez dira berdinak"
                         DatuAtzipenekoak.DatuAtzipena.ItxiKonexioa()
                     End If
                 Else
-                    MessageBox.Show("Pasahitz zaharra ez da datubasekoaren berdina")
+                    lblErrMezu.Text = "Pasahitz zaharra ez da datubasekoaren berdina"
                     DatuAtzipenekoak.DatuAtzipena.ItxiKonexioa()
                 End If
             End If
         Catch ex As DatuAtzipenekoak.DatuAtzipena.Salbuespenak.ErroreaKonektatzean
-            MessageBox.Show(ex.Message)
+            lblErrMezu.Text = ex.Message
             Exit Sub
         Catch ex As DatuAtzipenekoak.DatuAtzipena.Salbuespenak.ErroreaIrakurtzean
-            MessageBox.Show(ex.Message)
+            lblErrMezu.Text = ex.Message
             DatuAtzipenekoak.DatuAtzipena.ItxiKonexioa()
             Exit Sub
         End Try

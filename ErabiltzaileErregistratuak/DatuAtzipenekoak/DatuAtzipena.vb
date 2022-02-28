@@ -142,4 +142,25 @@ Public Class DatuAtzipena
         End Try
     End Function
 
+    Public Shared Function IkasleaMatrikulatutakoIrakasgaienEgokitzaileaEskuratu(ByVal email As String) As SqlDataAdapter
+        Dim sql As String = ""
+        comSGTA_DB_Erabiltzaileak = New SqlCommand(sql, conSGTA_DB_Erabiltzaileak)
+        Try
+            'Return-a SqlDataAdapter motakoa izan behar da
+            IkasleaMatrikulatutakoIrakasgaienEgokitzaileaEskuratu = comSGTA_DB_Erabiltzaileak.ExecuteReader
+        Catch ex As SqlException
+            Throw New Salbuespenak.ErroreaIrakurtzean("Sql arazoa select egitean")
+        End Try
+    End Function
+
+    Public Shared Function UstiapenekoLanGenerikoenEgokitzaileaEskuratu() As SqlDataAdapter
+        Dim sql As String = ""
+        comSGTA_DB_Erabiltzaileak = New SqlCommand(sql, conSGTA_DB_Erabiltzaileak)
+        Try
+            'Return-a SqlDataAdapter motakoa izan behar da
+            UstiapenekoLanGenerikoenEgokitzaileaEskuratu = comSGTA_DB_Erabiltzaileak.ExecuteReader
+        Catch ex As SqlException
+            Throw New Salbuespenak.ErroreaIrakurtzean("Sql arazoa select egitean")
+        End Try
+    End Function
 End Class

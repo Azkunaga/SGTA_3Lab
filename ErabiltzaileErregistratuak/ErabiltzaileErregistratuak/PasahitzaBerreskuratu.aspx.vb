@@ -14,10 +14,10 @@ Public Class WebForm5
             End If
             DatuAtzipenekoak.DatuAtzipena.ItxiKonexioa()
         Catch ex As DatuAtzipenekoak.DatuAtzipena.Salbuespenak.ErroreaKonektatzean
-            MessageBox.Show(ex.Message)
+            lblEmaitza.Text = ex.Message
             Exit Sub
         Catch ex As DatuAtzipenekoak.DatuAtzipena.Salbuespenak.ErroreaIrakurtzean
-            MessageBox.Show(ex.Message)
+            lblEmaitza.Text = ex.Message
             DatuAtzipenekoak.DatuAtzipena.ItxiKonexioa()
             Exit Sub
         End Try
@@ -39,10 +39,10 @@ Public Class WebForm5
             End If
             DatuAtzipenekoak.DatuAtzipena.ItxiKonexioa()
         Catch ex As DatuAtzipenekoak.DatuAtzipena.Salbuespenak.ErroreaKonektatzean
-            MessageBox.Show(ex.Message)
+            lblEmaitza.Text = ex.Message
             Exit Sub
         Catch ex As DatuAtzipenekoak.DatuAtzipena.Salbuespenak.ErroreaIrakurtzean
-            MessageBox.Show(ex.Message)
+            lblEmaitza.Text = ex.Message
             DatuAtzipenekoak.DatuAtzipena.ItxiKonexioa()
             Exit Sub
         End Try

@@ -143,7 +143,8 @@ Public Class DatuAtzipena
     End Function
 
     Public Shared Function IkasleaMatrikulatutakoIrakasgaienEgokitzaileaEskuratu(ByVal email As String) As SqlDataAdapter
-        Dim sql As String = "SELECT (ir.kodea,ir.izena) FROM (Erabiltzaileak INNER JOIN LanTaldeak ON lantaldeKodea=kodea) INNER JOIN Irakasgaiak AS ir ON irakasgaiKodea=ir.kodea WHERE email='" & email & "'"
+        Dim sql As String = "SELECT DISTINCT irakasgaiKodea FROM KlasekoTaldeak WHERE kodea IN (SELECT taldeKodea FROM IkasleakTaldeak WHERE email='" & email & "'"
+
         comSGTA_DB_Erabiltzaileak = New SqlCommand(sql, conSGTA_DB_Erabiltzaileak)
         Dim adapter As New SqlDataAdapter With {
             .SelectCommand = comSGTA_DB_Erabiltzaileak

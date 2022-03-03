@@ -11,7 +11,9 @@ Public Class WebForm11
         dataAdapterIkaslea.Fill(dataSetIkaslea, "Irakasgaiak")
         dataAdapterUstiapenekoa.Fill(dataSetUstiapenekoa, "LanGenerikoak")
         Session("ustiapenekoak") = dataSetUstiapenekoa
-        ddlIrakasgaiak.DataSource = 
+        ddlIrakasgaiak.DataSource = dataSetIkaslea.Tables("Irakasgaiak")
+        ddlIrakasgaiak.DataTextField = "iraksagaiKodea"
+        ddlIrakasgaiak.DataBind()
     End Sub
 
     Protected Sub cblLanEzaugarri_SelectedIndexChanged(sender As Object, e As EventArgs) Handles cblLanEzaugarri.SelectedIndexChanged

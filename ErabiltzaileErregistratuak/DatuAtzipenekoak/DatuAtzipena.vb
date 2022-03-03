@@ -4,7 +4,7 @@ Public Class DatuAtzipena
     'atributuak Shared (singleton patroia): klasearen atributu dira
     Private Shared conSGTA_DB_Erabiltzaileak As SqlConnection
     Private Shared comSGTA_DB_Erabiltzaileak As SqlCommand
-    Private Shared readSGTA_DB_Erabiltzaileak As SqlDataReader
+    'Private Shared readSGTA_DB_Erabiltzaileak As SqlDataReader
 
     'eraikitzaile pribatua (singleton patroia):
     Private Sub New()
@@ -143,24 +143,38 @@ Public Class DatuAtzipena
     End Function
 
     Public Shared Function IkasleaMatrikulatutakoIrakasgaienEgokitzaileaEskuratu(ByVal email As String) As SqlDataAdapter
-        Dim sql As String = ""
+        Dim sql As String = "SELECT (ir.kodea,ir.izena) FROM (Erabiltzaileak INNER JOIN LanTaldeak ON lantaldeKodea=kodea) INNER JOIN Irakasgaiak AS ir ON irakasgaiKodea=ir.kodea WHERE email='" & email & "'"
         comSGTA_DB_Erabiltzaileak = New SqlCommand(sql, conSGTA_DB_Erabiltzaileak)
+        Dim adapter As New SqlDataAdapter With {
+            .SelectCommand = comSGTA_DB_Erabiltzaileak
+        }
+        Dim dataSet As New DataSet()
         Try
             'Return-a SqlDataAdapter motakoa izan behar da
-            IkasleaMatrikulatutakoIrakasgaienEgokitzaileaEskuratu = comSGTA_DB_Erabiltzaileak.ExecuteReader
+            adapter.Fill(dataSet)
+            Return adapter
         Catch ex As SqlException
             Throw New Salbuespenak.ErroreaIrakurtzean("Sql arazoa select egitean")
+        Catch ex As Exception
+            Throw New Salbuespenak.ErroreaEguneratzean()
         End Try
     End Function
 
     Public Shared Function UstiapenekoLanGenerikoenEgokitzaileaEskuratu() As SqlDataAdapter
-        Dim sql As String = ""
+        Dim sql As String = "SELECT * FROM LanGenerikoak"
         comSGTA_DB_Erabiltzaileak = New SqlCommand(sql, conSGTA_DB_Erabiltzaileak)
+        Dim adapter As New SqlDataAdapter With {
+            .SelectCommand = comSGTA_DB_Erabiltzaileak
+        }
+        Dim dataSet As New DataSet()
         Try
             'Return-a SqlDataAdapter motakoa izan behar da
-            UstiapenekoLanGenerikoenEgokitzaileaEskuratu = comSGTA_DB_Erabiltzaileak.ExecuteReader
+            adapter.Fill(dataSet)
+            Return adapter
         Catch ex As SqlException
             Throw New Salbuespenak.ErroreaIrakurtzean("Sql arazoa select egitean")
+        Catch ex As Exception
+            Throw New Salbuespenak.ErroreaEguneratzean()
         End Try
     End Function
 End Class

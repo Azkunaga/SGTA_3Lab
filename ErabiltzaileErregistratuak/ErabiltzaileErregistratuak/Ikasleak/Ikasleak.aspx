@@ -9,7 +9,7 @@
 </head>
 <body>
     <form id="form1" runat="server">
-        <div style="width: 351px; float:left">
+        <div style="width: 150px; height: 150px; float:left; background-color: #ffde82;">
             <asp:HyperLink ID="hypLanGene" runat="server" NavigateUrl="~/Ikasleak/IkasleLanGenerikoak.aspx">Lan generikoak</asp:HyperLink>
             <br />
             <br />
@@ -21,7 +21,7 @@
             <br />
             <asp:HyperLink ID="hypPasaAlda" runat="server" NavigateUrl="~/PasahitzaAldatu.aspx">Pasahitza aldatu</asp:HyperLink>
         </div>
-        <div style="float:left; height: 152px; width: 379px; text-align:center;">
+        <div style="float:left; height: 150px; width: 379px; text-align:center; background-color: #d7fcf1;">
                 <asp:Label ID="Label1" runat="server" Text="Lanen Kudeaketa"></asp:Label><br /><br />
                 <asp:Label ID="Label2" runat="server" Text="Ikasleak"></asp:Label>
         </div>

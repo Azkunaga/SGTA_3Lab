@@ -19,7 +19,7 @@
         <asp:DropDownList ID="ddlIrakasgaiak" runat="server">
         </asp:DropDownList>
         <asp:CheckBoxList ID="cblLanEzaugarri" runat="server">
-            <asp:ListItem Value="Kodea">Kodea</asp:ListItem>
+            <asp:ListItem Value="Kodea" Enabled="False" Selected="True">Kodea</asp:ListItem>
             <asp:ListItem Value="Deskribapena"></asp:ListItem>
             <asp:ListItem Value="AurOrd">Aurreikusitako orduak</asp:ListItem>
             <asp:ListItem Value="LanMota">Lan mota</asp:ListItem>
@@ -30,21 +30,31 @@
         <asp:Label ID="lblErrMezu" runat="server" Text="   "></asp:Label>
         <br />
         <br />
-        <asp:SqlDataSource ID="sqlLanGenerikoak" runat="server" ConnectionString="Server=tcp:sgta2022-aritzplazaola.database.windows.net,1433;Initial Catalog=sgta2022-aritzplazaola;Persist Security Info=False;User ID=sgta2022-aritzplazaola;Password=softGTA3;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;"
-SelectCommand="SELECT * FROM LanGenerikoak WHERE IrakasgaiKodea="
- ProviderName="System.Data.SqlClient" >
-            </asp:SqlDataSource>
+        <asp:SqlDataSource ID="sqlIrakasgaikoLanGenerikoak" runat="server">
 
-        <asp:GridView ID="grvLanak" runat="server" AutoGenerateColumns="False">
+        </asp:SqlDataSource>
+        <asp:GridView ID="grvLanak" runat="server" AutoGenerateColumns="False" DataKeyNames="kodea" BackColor="White" BorderColor="#999999" BorderStyle="None" BorderWidth="1px" CellPadding="3" GridLines="Vertical">
+            <AlternatingRowStyle BackColor="#DCDCDC" />
             <Columns>
-                <asp:CommandField SelectText="Instantziatu" ShowSelectButton="True" />
-                <asp:BoundField HeaderText="Kodea" DataField="kodea" />
-                <asp:BoundField HeaderText="Deskribapena" />
-                <asp:BoundField HeaderText="Aurreikusitako Orduak" />
-                <asp:BoundField HeaderText="Lan Mota" />
+                <asp:CommandField ShowSelectButton="True" UpdateText="Instantziatu" />
+                <asp:BoundField DataField="kodea" HeaderText="Kodea" />
+                <asp:BoundField DataField="deskribapena" HeaderText="Deskribapena" />
+                <asp:BoundField DataField="aurreikusitakoOrduak" HeaderText="Aurreikusitako Orduak" />
+                <asp:BoundField DataField="lanMota" HeaderText="Lan Mota" />
             </Columns>
             
+            <FooterStyle BackColor="#CCCCCC" ForeColor="Black" />
+            <HeaderStyle BackColor="#000084" Font-Bold="True" ForeColor="White" />
+            <PagerStyle BackColor="#999999" ForeColor="Black" HorizontalAlign="Center" />
+            <RowStyle BackColor="#EEEEEE" ForeColor="Black" />
+            <SelectedRowStyle BackColor="#008A8C" Font-Bold="True" ForeColor="White" />
+            <SortedAscendingCellStyle BackColor="#F1F1F1" />
+            <SortedAscendingHeaderStyle BackColor="#0000A9" />
+            <SortedDescendingCellStyle BackColor="#CAC9C9" />
+            <SortedDescendingHeaderStyle BackColor="#000065" />
+            
         </asp:GridView>
+     
     </form>
 </body>
 </html>

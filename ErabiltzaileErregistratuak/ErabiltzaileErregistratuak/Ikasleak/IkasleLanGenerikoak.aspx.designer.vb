@@ -77,13 +77,13 @@ Partial Public Class WebForm11
     Protected WithEvents lblErrMezu As Global.System.Web.UI.WebControls.Label
 
     '''<summary>
-    '''Control sqlLanGenerikoak.
+    '''Control sqlIrakasgaikoLanGenerikoak.
     '''</summary>
     '''<remarks>
     '''Campo generado automáticamente.
     '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
     '''</remarks>
-    Protected WithEvents sqlLanGenerikoak As Global.System.Web.UI.WebControls.SqlDataSource
+    Protected WithEvents sqlIrakasgaikoLanGenerikoak As Global.System.Web.UI.WebControls.SqlDataSource
 
     '''<summary>
     '''Control grvLanak.

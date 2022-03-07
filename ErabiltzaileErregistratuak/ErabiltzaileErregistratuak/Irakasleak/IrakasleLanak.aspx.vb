@@ -5,4 +5,11 @@
 
     End Sub
 
+    Protected Sub ddlIrakasgaiak_SelectedIndexChanged(sender As Object, e As EventArgs) Handles ddlIrakasgaiak.SelectedIndexChanged
+
+    End Sub
+
+    Protected Sub btnLanBerria_Click(sender As Object, e As EventArgs) Handles btnLanBerria.Click
+        Response.Redirect("LanGenerikoaGehitu.aspx")
+    End Sub
 End Class

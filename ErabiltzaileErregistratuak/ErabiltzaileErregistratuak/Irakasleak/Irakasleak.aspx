@@ -13,7 +13,7 @@
             <asp:HyperLink ID="hypLanGene" runat="server">Irakasgaiak</asp:HyperLink>
             <br />
             <br />
-            <asp:HyperLink ID="hypLanPer" runat="server">Lanak</asp:HyperLink>
+            <asp:HyperLink ID="hypLanPer" runat="server" NavigateUrl="~/Irakasleak/IrakasleLanak.aspx">Lanak</asp:HyperLink>
             <br />
             <br />
             <asp:HyperLink ID="hypTaldeak" runat="server">Taldeak</asp:HyperLink>

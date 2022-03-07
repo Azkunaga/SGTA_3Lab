@@ -16,15 +16,8 @@ Public Class WebForm11
         ddlIrakasgaiak.DataBind()
     End Sub
 
-    Protected Sub cblLanEzaugarri_SelectedIndexChanged(sender As Object, e As EventArgs) Handles cblLanEzaugarri.SelectedIndexChanged
-
-    End Sub
-
-    Protected Sub ddlIrakasgaiak_SelectedIndexChanged(sender As Object, e As EventArgs) Handles ddlIrakasgaiak.SelectedIndexChanged
-
-    End Sub
-
     Protected Sub btnLanakBistaratu_Click(sender As Object, e As EventArgs) Handles btnLanakBistaratu.Click
 
     End Sub
+
 End Class

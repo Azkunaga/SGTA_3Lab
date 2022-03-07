@@ -195,3 +195,4 @@ C:\Users\USU\source\repos\SGTA_3Lab\ErabiltzaileErregistratuak\ErabiltzaileErreg
 C:\Users\USU\source\repos\SGTA_3Lab\ErabiltzaileErregistratuak\ErabiltzaileErregistratuak\obj\Debug\ErabiltzaileErregistratuak.dll
 C:\Users\USU\source\repos\SGTA_3Lab\ErabiltzaileErregistratuak\ErabiltzaileErregistratuak\obj\Debug\ErabiltzaileErregistratuak.xml
 C:\Users\USU\source\repos\SGTA_3Lab\ErabiltzaileErregistratuak\ErabiltzaileErregistratuak\obj\Debug\ErabiltzaileErregistratuak.pdb
+C:\Users\Poxito\source\repos\SGTA_3Lab\ErabiltzaileErregistratuak\ErabiltzaileErregistratuak\bin\DatuAtzipenekoak.xml

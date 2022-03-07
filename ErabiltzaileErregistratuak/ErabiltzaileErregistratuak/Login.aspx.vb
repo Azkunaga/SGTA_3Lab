@@ -25,12 +25,12 @@ Public Class WebForm2
         End Try
         If drErabiltzaileak.Read() Then
             If String.Equals(drErabiltzaileak.Item("email"), txtEmail.Text) And String.Equals(drErabiltzaileak.Item("pasahitza"), txtPasahitza.Text) Then
-                Session.Contents("emaila") = txtEmail.Text
+                Session.Contents("email") = txtEmail.Text
                 DatuAtzipenekoak.DatuAtzipena.ItxiKonexioa()
                 If Regex.IsMatch(txtEmail.Text, "[a-z]+@ikasle.ehu.(eus|es)") Then
-                    Response.Redirect("Ikasleak.aspx")
+                    Response.Redirect("Ikasleak/Ikasleak.aspx")
                 ElseIf Regex.IsMatch(txtEmail.Text, "[a-z]+@ehu.(eus|es)") Then
-                    Response.Redirect("Irakasleak.aspx")
+                    Response.Redirect("Irakasleak/Irakasleak.aspx")
                 Else
                     lblErrMezua.Text = "Emaila ez da ikasle edo irakasle batena"
                 End If

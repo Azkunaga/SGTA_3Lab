@@ -22,7 +22,7 @@ Public Class WebForm3
             If Strings.Len(txtEmail.Text) > 50 Or Strings.Len(txtIzena.Text) > 50 Or Strings.Len(txtAbizena.Text) > 50 Or Strings.Len(txtGalderaEzkutua.Text) > 50 Or Strings.Len(txtEmail.Text) > 50 Or Strings.Len(txtErantzuna.Text) > 50 Or Strings.Len(DropDownMota.SelectedValue) > 50 Or Strings.Len(txtAzpiKodea.Text) > 50 Or Strings.Len(txtAzpiKodea.Text) > 50 Or Strings.Len(txtPasahitza.Text) > 16 Then
                 lblErrMezu.Text = "Eremuren baten luzera desegokia da. Eremuen luzera maximoa 50ekoa izan daiteke. Pasahitzaren luzera maxioa 16 karaktere dira."
             Else
-                If (Regex.IsMatch(txtEmail.Text, "[a-z]+@ehu.(eus|es)") And DropDownMota.SelectedValue = "Irakasle") Or (Regex.IsMatch(txtEmail.Text, "[a-z]+@ikasle.ehu.(eus|es)") And DropDownMota.SelectedValue = "Ikasle") Then
+                If (Regex.IsMatch(txtEmail.Text, "[a-z]+@ehu.(eus|es)") And DropDownMota.SelectedValue = "Irakaslea") Or (Regex.IsMatch(txtEmail.Text, "[a-z]+@ikasle.ehu.(eus|es)") And DropDownMota.SelectedValue = "Ikaslea") Then
                     If Regex.IsMatch(txtNAN.Text, "[0-9]{8}") Then
                         Dim egiaztatzeZenbakia As Integer = CLng(Rnd() * 9000000) + 1000000
                         Try

@@ -34,7 +34,7 @@
             <asp:SqlDataSource 
                 ID="sqldsLanGenerikoak" 
                 runat="server" 
-                ConnectionString="Server=…"
+                ConnectionString="Server=tcp:sgta2022-aritzplazaola.database.windows.net,1433;Initial Catalog=sgta2022-aritzplazaola;Persist Security Info=False;User ID=sgta2022-aritzplazaola;Password=softGTA3;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;"
                 ProviderName="System.Data.SqlClient"
                 SelectCommand="SELECT * FROM [LanGenerikoak] WHERE ([irakasgaiKodea] = @irakasgaiKodea)"
                 >

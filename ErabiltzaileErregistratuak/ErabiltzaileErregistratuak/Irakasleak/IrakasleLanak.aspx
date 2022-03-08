@@ -60,7 +60,7 @@
             </asp:GridView>
             <br />
             <br />
-            <asp:HyperLink ID="hypSaioaAmaitu" runat="server" NavigateUrl="~/Amaiera.aspx">Saioa amaitu</asp:HyperLink>
+            <asp:HyperLink ID="hypSaioaAmaitu" runat="server" NavigateUrl="~/Hasiera.aspx">Saioa amaitu</asp:HyperLink>
             <br />
 
         </div>

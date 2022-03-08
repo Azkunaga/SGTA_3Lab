@@ -184,7 +184,6 @@ C:\Users\USU\source\repos\SGTA_3Lab\ErabiltzaileErregistratuak\ErabiltzaileErreg
 C:\Users\USU\source\repos\SGTA_3Lab\ErabiltzaileErregistratuak\ErabiltzaileErregistratuak\bin\DatuAtzipenekoak.dll
 C:\Users\USU\source\repos\SGTA_3Lab\ErabiltzaileErregistratuak\ErabiltzaileErregistratuak\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
 C:\Users\USU\source\repos\SGTA_3Lab\ErabiltzaileErregistratuak\ErabiltzaileErregistratuak\bin\DatuAtzipenekoak.pdb
-C:\Users\USU\source\repos\SGTA_3Lab\ErabiltzaileErregistratuak\ErabiltzaileErregistratuak\bin\DatuAtzipenekoak.xml
 C:\Users\USU\source\repos\SGTA_3Lab\ErabiltzaileErregistratuak\ErabiltzaileErregistratuak\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
 C:\Users\USU\source\repos\SGTA_3Lab\ErabiltzaileErregistratuak\ErabiltzaileErregistratuak\obj\Debug\ErabiltzaileErregistratuak.vbproj.AssemblyReference.cache
 C:\Users\USU\source\repos\SGTA_3Lab\ErabiltzaileErregistratuak\ErabiltzaileErregistratuak\obj\Debug\ErabiltzaileErregistratuak.Resources.resources
@@ -196,3 +195,4 @@ C:\Users\USU\source\repos\SGTA_3Lab\ErabiltzaileErregistratuak\ErabiltzaileErreg
 C:\Users\USU\source\repos\SGTA_3Lab\ErabiltzaileErregistratuak\ErabiltzaileErregistratuak\obj\Debug\ErabiltzaileErregistratuak.pdb
 C:\Users\Poxito\source\repos\SGTA_3Lab\ErabiltzaileErregistratuak\ErabiltzaileErregistratuak\bin\DatuAtzipenekoak.xml
 C:\Users\Poxito\source\repos\SGTA_3Lab\ErabiltzaileErregistratuak\ErabiltzaileErregistratuak\bin\DatuAtzipenekoak.dll
+C:\Users\USU\source\repos\SGTA_3Lab\ErabiltzaileErregistratuak\ErabiltzaileErregistratuak\bin\DatuAtzipenekoak.xml

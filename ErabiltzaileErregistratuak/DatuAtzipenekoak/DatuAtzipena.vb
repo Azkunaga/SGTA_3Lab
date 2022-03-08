@@ -162,7 +162,7 @@ Public Class DatuAtzipena
     End Function
 
     Public Shared Function UstiapenekoLanGenerikoenEgokitzaileaEskuratu() As SqlDataAdapter
-        Dim sql As String = "SELECT * FROM LanGenerikoak"
+        Dim sql As String = "SELECT * FROM LanGenerikoak WHERE ustiapenean=1"
         comSGTA_DB_Erabiltzaileak = New SqlCommand(sql, conSGTA_DB_Erabiltzaileak)
         Dim adapter As New SqlDataAdapter With {
             .SelectCommand = comSGTA_DB_Erabiltzaileak
@@ -180,7 +180,21 @@ Public Class DatuAtzipena
     End Function
 
     Public Shared Function LanGenerikoenEgokitzaileaEskuratu() As SqlDataAdapter
-
+        Dim sql As String = "SELECT * FROM LanGenerikoak"
+        comSGTA_DB_Erabiltzaileak = New SqlCommand(sql, conSGTA_DB_Erabiltzaileak)
+        Dim adapter As New SqlDataAdapter With {
+            .SelectCommand = comSGTA_DB_Erabiltzaileak
+        }
+        Dim dataSet As New DataSet()
+        Try
+            'Return-a SqlDataAdapter motakoa izan behar da
+            adapter.Fill(dataSet)
+            Return adapter
+        Catch ex As SqlException
+            Throw New Salbuespenak.ErroreaIrakurtzean("Sql arazoa select egitean")
+        Catch ex As Exception
+            Throw New Salbuespenak.ErroreaEguneratzean()
+        End Try
     End Function
 
     Public Shared Function IrakasgaiKodeenTaulaLortu() As DataTable

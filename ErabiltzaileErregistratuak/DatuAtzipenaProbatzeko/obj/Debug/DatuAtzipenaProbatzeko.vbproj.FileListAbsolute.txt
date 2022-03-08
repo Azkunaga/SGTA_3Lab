@@ -4,7 +4,6 @@ C:\Users\USU\source\repos\SGTA_3Lab\ErabiltzaileErregistratuak\DatuAtzipenaProba
 C:\Users\USU\source\repos\SGTA_3Lab\ErabiltzaileErregistratuak\DatuAtzipenaProbatzeko\bin\Debug\DatuAtzipenaProbatzeko.xml
 C:\Users\USU\source\repos\SGTA_3Lab\ErabiltzaileErregistratuak\DatuAtzipenaProbatzeko\bin\Debug\DatuAtzipenekoak.dll
 C:\Users\USU\source\repos\SGTA_3Lab\ErabiltzaileErregistratuak\DatuAtzipenaProbatzeko\bin\Debug\DatuAtzipenekoak.pdb
-C:\Users\USU\source\repos\SGTA_3Lab\ErabiltzaileErregistratuak\DatuAtzipenaProbatzeko\bin\Debug\DatuAtzipenekoak.xml
 C:\Users\USU\source\repos\SGTA_3Lab\ErabiltzaileErregistratuak\DatuAtzipenaProbatzeko\obj\Debug\DatuAtzipenaProbatzeko.vbproj.AssemblyReference.cache
 C:\Users\USU\source\repos\SGTA_3Lab\ErabiltzaileErregistratuak\DatuAtzipenaProbatzeko\obj\Debug\DatuAtzipenaProbatzeko.Resources.resources
 C:\Users\USU\source\repos\SGTA_3Lab\ErabiltzaileErregistratuak\DatuAtzipenaProbatzeko\obj\Debug\DatuAtzipenaProbatzeko.vbproj.GenerateResource.cache

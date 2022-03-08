@@ -163,15 +163,6 @@ Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
-<member name="F:ErabiltzaileErregistratuak.WebForm11._sqlIrakasgaikoLanGenerikoak">
-<summary>
-Control sqlIrakasgaikoLanGenerikoak.
-</summary>
-<remarks>
-Campo generado automáticamente.
-Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-</remarks>
-</member>
 <member name="F:ErabiltzaileErregistratuak.WebForm11._grvLanak">
 <summary>
 Control grvLanak.
@@ -328,6 +319,123 @@ Para modificarlo, mueva la declaración del campo del archivo del diseñador al 
 <member name="F:ErabiltzaileErregistratuak.WebForm14._form1">
 <summary>
 Control form1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:ErabiltzaileErregistratuak.WebForm14._lblKodea">
+<summary>
+Control lblKodea.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:ErabiltzaileErregistratuak.WebForm14._txtKodea">
+<summary>
+Control txtKodea.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:ErabiltzaileErregistratuak.WebForm14._lblDeskribapena">
+<summary>
+Control lblDeskribapena.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:ErabiltzaileErregistratuak.WebForm14._txtDeskribapena">
+<summary>
+Control txtDeskribapena.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:ErabiltzaileErregistratuak.WebForm14._lblIrakasgaia">
+<summary>
+Control lblIrakasgaia.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:ErabiltzaileErregistratuak.WebForm14._ddlIrakasgaiak">
+<summary>
+Control ddlIrakasgaiak.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:ErabiltzaileErregistratuak.WebForm14._lblAurreOrduak">
+<summary>
+Control lblAurreOrduak.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:ErabiltzaileErregistratuak.WebForm14._txtAurreOrduak">
+<summary>
+Control txtAurreOrduak.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:ErabiltzaileErregistratuak.WebForm14._lblLanMota">
+<summary>
+Control lblLanMota.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:ErabiltzaileErregistratuak.WebForm14._ddlLanMotak">
+<summary>
+Control ddlLanMotak.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:ErabiltzaileErregistratuak.WebForm14._btnGehiLana">
+<summary>
+Control btnGehiLana.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:ErabiltzaileErregistratuak.WebForm14._HyperLink1">
+<summary>
+Control HyperLink1.
+</summary>
+<remarks>
+Campo generado automáticamente.
+Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+</remarks>
+</member>
+<member name="F:ErabiltzaileErregistratuak.WebForm14._odsDatuAtzipena">
+<summary>
+Control odsDatuAtzipena.
 </summary>
 <remarks>
 Campo generado automáticamente.

@@ -17,7 +17,6 @@ C:\Users\Poxito\source\repos\SGTA_3Lab\ErabiltzaileErregistratuak\DatuAtzipenaPr
 C:\Users\Poxito\source\repos\SGTA_3Lab\ErabiltzaileErregistratuak\DatuAtzipenaProbatzeko\bin\Debug\DatuAtzipenaProbatzeko.exe
 C:\Users\Poxito\source\repos\SGTA_3Lab\ErabiltzaileErregistratuak\DatuAtzipenaProbatzeko\bin\Debug\DatuAtzipenaProbatzeko.pdb
 C:\Users\Poxito\source\repos\SGTA_3Lab\ErabiltzaileErregistratuak\DatuAtzipenaProbatzeko\bin\Debug\DatuAtzipenaProbatzeko.xml
-C:\Users\Poxito\source\repos\SGTA_3Lab\ErabiltzaileErregistratuak\DatuAtzipenaProbatzeko\bin\Debug\DatuAtzipenekoak.dll
 C:\Users\Poxito\source\repos\SGTA_3Lab\ErabiltzaileErregistratuak\DatuAtzipenaProbatzeko\bin\Debug\DatuAtzipenekoak.pdb
 C:\Users\Poxito\source\repos\SGTA_3Lab\ErabiltzaileErregistratuak\DatuAtzipenaProbatzeko\obj\Debug\DatuAtzipenaProbatzeko.vbproj.AssemblyReference.cache
 C:\Users\Poxito\source\repos\SGTA_3Lab\ErabiltzaileErregistratuak\DatuAtzipenaProbatzeko\obj\Debug\DatuAtzipenaProbatzeko.Resources.resources

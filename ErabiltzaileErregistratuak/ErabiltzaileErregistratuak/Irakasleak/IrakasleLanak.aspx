@@ -18,7 +18,7 @@
             <br />
             <asp:Label ID="Label1" runat="server" Text="Irakasgaia hautatu:"></asp:Label>
             <br />
-            <asp:DropDownList ID="ddlIrakasgaiak" runat="server" DataSourceID="sqldsIrakasleakTaldeak">
+            <asp:DropDownList ID="ddlIrakasgaiak" runat="server" DataSourceID="sqldsIrakasleakTaldeak" DataTextField="irakasgaiKodea" AutoPostBack="True">
             </asp:DropDownList>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             <asp:Button ID="btnLanBerria" runat="server" Text="Lan berria gehitu" />
@@ -30,6 +30,9 @@
                 ProviderName="System.Data.SqlClient"
                 ConnectionString="Server=tcp:sgta2022-aritzplazaola.database.windows.net,1433;Initial Catalog=sgta2022-aritzplazaola;Persist Security Info=False;User ID=sgta2022-aritzplazaola;Password=softGTA3;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;"
                 SelectCommand="SELECT KlasekoTaldeak.irakasgaiKodea FROM (KlasekoTaldeak INNER JOIN IrakasleakTaldeak ON KlasekoTaldeak.kodea = IrakasleakTaldeak.taldeKodea) WHERE (IrakasleakTaldeak.email = @email)">
+                <SelectParameters>
+                    <asp:SessionParameter Name="email" SessionField="email" />
+                </SelectParameters>
             </asp:SqlDataSource>
             <asp:SqlDataSource 
                 ID="sqldsLanGenerikoak" 
@@ -38,11 +41,22 @@
                 ProviderName="System.Data.SqlClient"
                 SelectCommand="SELECT * FROM [LanGenerikoak] WHERE ([irakasgaiKodea] = @irakasgaiKodea)"
                 >
+                <SelectParameters>
+                    <asp:ControlParameter ControlID="ddlIrakasgaiak" Name="irakasgaiKodea" PropertyName="SelectedValue" Type="String"  />
+                </SelectParameters>
             </asp:SqlDataSource>
             <asp:GridView
                 id="grvLanGenerikoak"
                 runat="server"
-                DataSourceID="sqldsLanGenerikoak" AllowSorting="True" AutoGenerateEditButton="True">
+                DataSourceID="sqldsLanGenerikoak" AllowSorting="True" AutoGenerateEditButton="True" AutoGenerateColumns="False">
+                <Columns>
+                    <asp:BoundField DataField="kodea" HeaderText="Kodea" />
+                    <asp:BoundField DataField="deskribapena" HeaderText="Deskribapena" />
+                    <asp:BoundField DataField="irakasgaiKodea" HeaderText="Irakasgai Kodea" />
+                    <asp:BoundField DataField="aurreikusitakoOrduak" HeaderText="Aurreikusitako orduak" />
+                    <asp:BoundField DataField="ustiapenean" HeaderText="Ustiapenean" />
+                    <asp:BoundField DataField="lanMota" HeaderText="Lan mota" />
+                </Columns>
             </asp:GridView>
             <br />
             <br />

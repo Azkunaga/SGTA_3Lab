@@ -163,9 +163,9 @@ Campo generado automáticamente.
 Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
 </remarks>
 </member>
-<member name="F:ErabiltzaileErregistratuak.WebForm11._sqlLanGenerikoak">
+<member name="F:ErabiltzaileErregistratuak.WebForm11._sqlIrakasgaikoLanGenerikoak">
 <summary>
-Control sqlLanGenerikoak.
+Control sqlIrakasgaikoLanGenerikoak.
 </summary>
 <remarks>
 Campo generado automáticamente.

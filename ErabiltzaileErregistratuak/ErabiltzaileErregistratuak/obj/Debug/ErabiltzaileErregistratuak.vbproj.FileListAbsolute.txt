@@ -117,7 +117,6 @@ C:\Users\Poxito\source\repos\SGTA_3Lab\ErabiltzaileErregistratuak\ErabiltzaileEr
 C:\Users\Poxito\source\repos\SGTA_3Lab\ErabiltzaileErregistratuak\ErabiltzaileErregistratuak\bin\roslyn\vbc.rsp
 C:\Users\Poxito\source\repos\SGTA_3Lab\ErabiltzaileErregistratuak\ErabiltzaileErregistratuak\bin\roslyn\VBCSCompiler.exe
 C:\Users\Poxito\source\repos\SGTA_3Lab\ErabiltzaileErregistratuak\ErabiltzaileErregistratuak\bin\roslyn\VBCSCompiler.exe.config
-C:\Users\Poxito\source\repos\SGTA_3Lab\ErabiltzaileErregistratuak\ErabiltzaileErregistratuak\bin\DatuAtzipenekoak.dll
 C:\Users\Poxito\source\repos\SGTA_3Lab\ErabiltzaileErregistratuak\ErabiltzaileErregistratuak\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
 C:\Users\Poxito\source\repos\SGTA_3Lab\ErabiltzaileErregistratuak\ErabiltzaileErregistratuak\bin\DatuAtzipenekoak.pdb
 C:\Users\Poxito\source\repos\SGTA_3Lab\ErabiltzaileErregistratuak\ErabiltzaileErregistratuak\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
@@ -196,3 +195,4 @@ C:\Users\USU\source\repos\SGTA_3Lab\ErabiltzaileErregistratuak\ErabiltzaileErreg
 C:\Users\USU\source\repos\SGTA_3Lab\ErabiltzaileErregistratuak\ErabiltzaileErregistratuak\obj\Debug\ErabiltzaileErregistratuak.xml
 C:\Users\USU\source\repos\SGTA_3Lab\ErabiltzaileErregistratuak\ErabiltzaileErregistratuak\obj\Debug\ErabiltzaileErregistratuak.pdb
 C:\Users\Poxito\source\repos\SGTA_3Lab\ErabiltzaileErregistratuak\ErabiltzaileErregistratuak\bin\DatuAtzipenekoak.xml
+C:\Users\Poxito\source\repos\SGTA_3Lab\ErabiltzaileErregistratuak\ErabiltzaileErregistratuak\bin\DatuAtzipenekoak.dll

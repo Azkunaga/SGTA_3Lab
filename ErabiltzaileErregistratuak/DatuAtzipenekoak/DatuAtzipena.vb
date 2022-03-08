@@ -200,8 +200,8 @@ Public Class DatuAtzipena
         Dim dataSet As New DataSet()
         Try
             'Return-a SqlDataAdapter motakoa izan behar da
-            adapter.Fill(dataSet)
-            Dim tblKodeak As DataTable = dataSet.Tables("kodea")
+            adapter.Fill(dataSet, "Irakasgaiak")
+            Dim tblKodeak As DataTable = dataSet.Tables("Irakasgaiak")
             Return tblKodeak
         Catch ex As SqlException
             Throw New Salbuespenak.ErroreaIrakurtzean("Sql arazoa select egitean")

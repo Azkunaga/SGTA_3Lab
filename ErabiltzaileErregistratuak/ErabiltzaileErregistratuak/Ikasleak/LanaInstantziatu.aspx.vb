@@ -7,7 +7,6 @@ Public Class WebForm12
         If Not IsPostBack Then
             erabText.Text = Session("email")
             lanaText.Text = Request.QueryString("lanKodea")
-
             Dim dsIkasleLanak As New DataSet()
             DatuAtzipenekoak.DatuAtzipena.Konektatu()
             Dim daIkasleLanak As SqlDataAdapter = DatuAtzipenekoak.DatuAtzipena.IkasleLanenEgokitzaileaEskuratu(Session("email"))

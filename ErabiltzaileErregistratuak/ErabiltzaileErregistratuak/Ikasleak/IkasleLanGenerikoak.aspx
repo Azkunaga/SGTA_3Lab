@@ -30,14 +30,12 @@
         <asp:Label ID="lblErrMezu" runat="server" Text="   "></asp:Label>
         <br />
         <br />
-        <asp:SqlDataSource ID="sqlIrakasgaikoLanGenerikoak" runat="server">
-
-        </asp:SqlDataSource>
-        <asp:GridView ID="grvLanak" runat="server" AutoGenerateColumns="False" DataKeyNames="kodea" BackColor="White" BorderColor="#999999" BorderStyle="None" BorderWidth="1px" CellPadding="3" GridLines="Vertical">
+        
+        <asp:GridView ID="grvLanak" runat="server" AutoGenerateColumns="False" DataKeyNames="kodea" BackColor="White" BorderColor="#999999" BorderStyle="None" BorderWidth="1px" CellPadding="3" GridLines="Vertical" AllowSorting="True">
             <AlternatingRowStyle BackColor="#DCDCDC" />
             <Columns>
-                <asp:CommandField ShowSelectButton="True" UpdateText="Instantziatu" />
-                <asp:BoundField DataField="kodea" HeaderText="Kodea" />
+                <asp:ButtonField Text="Instantziatu" />
+                <asp:BoundField DataField="kodea" HeaderText="Kodea" SortExpression="kodea" />
                 <asp:BoundField DataField="deskribapena" HeaderText="Deskribapena" />
                 <asp:BoundField DataField="aurreikusitakoOrduak" HeaderText="Aurreikusitako Orduak" />
                 <asp:BoundField DataField="lanMota" HeaderText="Lan Mota" />

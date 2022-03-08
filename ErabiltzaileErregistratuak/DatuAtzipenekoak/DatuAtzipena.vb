@@ -156,8 +156,6 @@ Public Class DatuAtzipena
             Return adapter
         Catch ex As SqlException
             Throw New Salbuespenak.ErroreaIrakurtzean("Sql arazoa select egitean")
-        Catch ex As Exception
-            Throw New Salbuespenak.ErroreaEguneratzean()
         End Try
     End Function
 
@@ -174,8 +172,6 @@ Public Class DatuAtzipena
             Return adapter
         Catch ex As SqlException
             Throw New Salbuespenak.ErroreaIrakurtzean("Sql arazoa select egitean")
-        Catch ex As Exception
-            Throw New Salbuespenak.ErroreaEguneratzean()
         End Try
     End Function
 
@@ -192,8 +188,6 @@ Public Class DatuAtzipena
             Return adapter
         Catch ex As SqlException
             Throw New Salbuespenak.ErroreaIrakurtzean("Sql arazoa select egitean")
-        Catch ex As Exception
-            Throw New Salbuespenak.ErroreaEguneratzean()
         End Try
     End Function
 
@@ -211,8 +205,25 @@ Public Class DatuAtzipena
             Return tblKodeak
         Catch ex As SqlException
             Throw New Salbuespenak.ErroreaIrakurtzean("Sql arazoa select egitean")
-        Catch ex As Exception
-            Throw New Salbuespenak.ErroreaEguneratzean()
         End Try
     End Function
+
+    Public Shared Function IkasleLanenEgokitzaileaEskuratu(ByVal email As String) As SqlDataAdapter
+        Dim sql As String = "SELECT * FROM IkasleakLanak WHERE email = '" & email & "'"
+        comSGTA_DB_Erabiltzaileak = New SqlCommand(sql, conSGTA_DB_Erabiltzaileak)
+        Dim adapter As New SqlDataAdapter With {
+            .SelectCommand = comSGTA_DB_Erabiltzaileak
+        }
+        Dim dataSet As New DataSet()
+        Try
+            'Return-a SqlDataAdapter motakoa izan behar da
+            adapter.Fill(dataSet)
+            Return adapter
+        Catch ex As SqlException
+            Throw New Salbuespenak.ErroreaIrakurtzean("Sql arazoa select egitean")
+        End Try
+    End Function
+
+
+
 End Class

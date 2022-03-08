@@ -26,3 +26,4 @@ C:\Users\Poxito\source\repos\SGTA_3Lab\ErabiltzaileErregistratuak\DatuAtzipenaPr
 C:\Users\Poxito\source\repos\SGTA_3Lab\ErabiltzaileErregistratuak\DatuAtzipenaProbatzeko\obj\Debug\DatuAtzipenaProbatzeko.xml
 C:\Users\Poxito\source\repos\SGTA_3Lab\ErabiltzaileErregistratuak\DatuAtzipenaProbatzeko\obj\Debug\DatuAtzipenaProbatzeko.pdb
 C:\Users\Poxito\source\repos\SGTA_3Lab\ErabiltzaileErregistratuak\DatuAtzipenaProbatzeko\bin\Debug\DatuAtzipenekoak.xml
+C:\Users\USU\source\repos\SGTA_3Lab\ErabiltzaileErregistratuak\DatuAtzipenaProbatzeko\bin\Debug\DatuAtzipenekoak.xml
